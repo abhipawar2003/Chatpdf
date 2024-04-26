@@ -11,3 +11,7 @@ Load PDF and Split Text: The PDF file containing a short story is loaded, and it
 Vectorization: The text chunks are converted into TF-IDF vectors, representing the importance of each word in the chunks. These vectors are then stored in a file for future use.
 Question Similarity: A sample question related to the story is provided, and its TF-IDF vector is calculated. Cosine similarity is computed between this question vector and the TF-IDF vectors of text chunks to find the most similar chunk, providing an answer to the question.
 Top Similar Chunks: Additionally, the code identifies the top four chunks with the highest similarity scores to the question, displaying their scores and content.
+
+
+</br>
+The langchain pdf contains  api keys. theis is also one  method to find the answer but i suggest not to use api keys because they costs too much and every time you need to generate a new api keys .
